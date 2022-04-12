@@ -23,7 +23,7 @@ repos <- repos[c(23, 46, 56)]
 
 handle <- curl::handle_setheaders(
   curl::new_handle(followlocation = FALSE), 
-  "Authorization" = paste("token", Sys.getenv("GITHUB_PAT")),
+  "Authorization" = paste("token", Sys.getenv("GH_PAT")),
   "Accept" = "application/vnd.github.v3+json"
 )
 
