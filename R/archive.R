@@ -48,7 +48,7 @@ for(i in seq_along(repos)){
   migration <- gh::gh(
     "POST /orgs/{org}/migrations",
     org = "tbep-tech",
-    .token = Sys.getenv('GITHUB_PAT'), 
+    .token = Sys.getenv('GH_PAT'), 
     repositories = as.list(repo)
   )
   
