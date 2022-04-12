@@ -1,25 +1,25 @@
 library(gh)
 library(aws.s3)
-library(magrittr)
 
 # aws keys
-access_key <- Sys.getenv('AWS_ACCESS_KEY_ID')
-secret_key <- Sys.getenv('AWS_SECRET_ACCESS_KEY')
 Sys.setenv(
-  "AWS_ACCESS_KEY_ID" = access_key,
-  "AWS_SECRET_ACCESS_KEY" = secret_key
+  "AWS_ACCESS_KEY_ID" = Sys.getenv('AWS_ACCESS_KEY_ID'),
+  "AWS_SECRET_ACCESS_KEY" = Sys.getenv('AWS_SECRET_ACCESS_KEY')
 )
 
 # identify repos in tbep-tech, except this one
 repos <- gh::gh(
-  "/orgs/{org}/repos",
-  org = "tbep-tech",
-  type = "all",
-  per_page = 100,
-  .limit = Inf
-) %>% 
-  purrr::map_chr("name") %>% 
-  .[!. %in% 'github-backup']
+    "/orgs/{org}/repos",
+    org = "tbep-tech",
+    type = "all",
+    per_page = 100,
+    .limit = Inf
+  ) |> 
+  purrr::map_chr("name") |> 
+  (\(x) x[!x %in% 'github-backup'])()
+
+# test on these
+repos <- repos[c(23, 46, 56)]
 
 handle <- curl::handle_setheaders(
   curl::new_handle(followlocation = FALSE), 
@@ -76,3 +76,7 @@ for(i in seq_along(repos)){
   file.remove(file_path)
   
 }
+
+sink('log.txt')
+print(Sys.time())
+sink()
