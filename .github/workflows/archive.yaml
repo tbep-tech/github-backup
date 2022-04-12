@@ -17,7 +17,6 @@ jobs:
     name: archive
     runs-on: macOS-latest
     env:
-      GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
       GH_KEY: ${{ secrets.GH_KEY }}
       GH_SECRET: ${{ secrets.GH_SECRET }}
     steps:
