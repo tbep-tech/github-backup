@@ -18,9 +18,6 @@ repos <- gh::gh(
   purrr::map_chr("name") |> 
   (\(x) x[!x %in% 'github-backup'])()
 
-# test on these
-repos <- repos[23]
-
 handle <- curl::handle_setheaders(
   curl::new_handle(followlocation = FALSE), 
   "Authorization" = paste("token", Sys.getenv("GITHUB_PAT")),
@@ -79,5 +76,6 @@ for(i in seq_along(repos)){
 }
 
 sink('log.txt')
-print(Sys.time())
+cat(paste('Successful archive on', Sys.time(), '\n'))
+Sys.time() - str
 sink()
