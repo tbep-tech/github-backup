@@ -19,11 +19,11 @@ repos <- gh::gh(
   (\(x) x[!x %in% 'github-backup'])()
 
 # test on these
-repos <- repos[c(23, 46, 56)]
+repos <- repos[23]
 
 handle <- curl::handle_setheaders(
   curl::new_handle(followlocation = FALSE), 
-  "Authorization" = paste("token", Sys.getenv("GH_PAT")),
+  "Authorization" = paste("token", Sys.getenv("GITHUB_PAT")),
   "Accept" = "application/vnd.github.v3+json"
 )
 
@@ -48,7 +48,7 @@ for(i in seq_along(repos)){
   migration <- gh::gh(
     "POST /orgs/{org}/migrations",
     org = "tbep-tech",
-    .token = Sys.getenv('GH_PAT'), 
+    .token = Sys.getenv('GITHUB_PAT'), 
     repositories = as.list(repo)
   )
   
