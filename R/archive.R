@@ -15,8 +15,8 @@ repos <- gh::gh(
     per_page = 100,
     .limit = Inf
   ) |> 
-  purrr::map_chr("name") |> 
-  (\(x) x[!x %in% 'github-backup'])()
+  purrr::map_chr("name") #|> 
+  # (\(x) x[!x %in% 'github-backup'])()
 
 handle <- curl::handle_setheaders(
   curl::new_handle(followlocation = FALSE), 
