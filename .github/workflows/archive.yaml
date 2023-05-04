@@ -24,9 +24,14 @@ jobs:
        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
     steps:
       - uses: actions/checkout@v2
-      - uses: r-lib/actions/setup-r@v1
-      - name: Install R dependencies
-        run: Rscript -e 'install.packages(c("gh", "aws.s3", "purrr", "curl"))'
+      - uses: r-lib/actions/setup-r@v2
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::gh
+            any::aws.s3
+            any::purrr
+            any::curl
       - name: Copy data
         run: Rscript -e 'source("R/archive.R")'
       - name: Commit results
