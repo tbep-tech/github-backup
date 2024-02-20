@@ -3,12 +3,12 @@
 on:
  schedule:
    - cron: "0 0 * * 0" # midnight on sunday
-  push:
-    branches:
-      - main
-#   pull_request:
-#     branches:
-#       - main
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+  #   branches:
+  #     - main
 
 name: archive
 
