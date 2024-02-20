@@ -68,7 +68,7 @@ for(i in seq_along(repos)){
  
   # upload to S3
   cat('\tUpload to S3...\n')
-  put_object(file_path, bucket = 'tbep-tech-github-backup')
+  put_object(file_path, bucket = 'tbep-tech-github-backup', multipart = T)
 
   # remove local file
   file.remove(file_path)
