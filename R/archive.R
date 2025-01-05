@@ -66,9 +66,16 @@ for(i in seq_along(repos)){
     file_path
   )
  
-  # upload to S3
+  # upload to S3 in retry
   cat('\tUpload to S3...\n')
-  put_object(file_path, bucket = 'tbep-tech-github-backup', multipart = T)
+  buck <- 'tbep-tech-github-backup'
+  tryCatch(
+    put_object(file_path, bucket = buck, multipart = T),
+    error = function(e){
+      cat('\t\tRetrying...\n')
+      put_object(file_path, bucket = buck, multipart = T)
+    }
+  )
 
   # remove local file
   file.remove(file_path)
