@@ -6,6 +6,12 @@ on:
   #     - main
   schedule:
     - cron: "0 0 * * 0" # midnight on sunday
+  workflow_dispatch:
+    inputs:
+      full_backup:
+        description: "Back up all repos, not just those changed since the last backup"
+        type: boolean
+        default: false
 
 name: archive
 
@@ -19,6 +25,7 @@ jobs:
        GH_SECRET: ${{ secrets.GH_SECRET }}
        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+       FULL_BACKUP: ${{ inputs.full_backup || 'false' }}
     steps:
       - uses: actions/checkout@v4
       - uses: r-lib/actions/setup-r@v2
