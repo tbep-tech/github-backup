@@ -1,13 +1,17 @@
-Successful archive on 2026-10-01 14:35:02 UTC (incremental)
-Run time: 12.4 mins
-Backed up: 5 of 164 repos
+Successful archive on 2026-10-04 03:44:31 UTC (incremental)
+Run time: 15.1 mins
+Backed up: 9 of 164 repos
 
 Backed up this run:
-  climate-dash         2026-10-01 14:35:01 UTC
-  github-backup        2026-10-01 14:30:41 UTC
-  tbep-refs            2026-10-01 14:29:38 UTC
-  tbep-tech.github.io  2026-10-01 14:23:53 UTC
-  tbeptools            2026-10-01 14:28:08 UTC
+  fib-dash                 2026-10-04 03:39:08 UTC
+  github-backup            2026-10-04 03:38:03 UTC
+  seagrasscoverage-dash    2026-10-04 03:37:01 UTC
+  tbcmp-habitat            2026-10-04 03:44:31 UTC
+  tbcmp-vulnerability      2026-10-04 03:40:12 UTC
+  tbcmp-vulnerability-map  2026-10-04 03:41:15 UTC
+  tbep-refs                2026-10-04 03:35:33 UTC
+  tbeptools                2026-10-04 03:33:01 UTC
+  wq-dash                  2026-10-04 03:34:09 UTC
 
 Skipped (unchanged), last backup:
   actionable-science                 2026-09-27 03:58:31 UTC
@@ -33,6 +37,7 @@ Skipped (unchanged), last backup:
   changing-targets                   2026-09-27 05:24:01 UTC
   chlhydro-manu                      2026-09-27 05:55:44 UTC
   climate-change-indicators          2026-09-27 05:04:39 UTC
+  climate-dash                       2026-10-01 14:33:51 UTC
   css-styling                        2026-09-27 03:03:14 UTC
   data-management-manu               2026-09-27 03:49:19 UTC
   data-management-sop                2026-09-27 03:35:41 UTC
@@ -44,7 +49,6 @@ Skipped (unchanged), last backup:
   equity-tool                        2026-09-27 04:58:43 UTC
   explore-ass-cap                    2026-09-27 05:57:42 UTC
   extractr                           2026-09-27 05:38:02 UTC
-  fib-dash                           2026-09-27 05:27:21 UTC
   fib-data-assessment                2026-09-27 05:11:55 UTC
   fib-report-card                    2026-09-27 05:20:37 UTC
   fibs-and-hydrology                 2026-09-27 05:16:17 UTC
@@ -87,7 +91,6 @@ Skipped (unchanged), last backup:
   RSparrow2.1-review                 2026-09-27 05:35:54 UTC
   scallop-search                     2026-09-27 03:28:58 UTC
   seagrass-analysis                  2026-09-27 03:52:57 UTC
-  seagrasscoverage-dash              2026-09-27 03:23:00 UTC
   seagrasstraining-manu              2026-09-27 06:26:27 UTC
   seagrasstransect                   2026-09-27 03:19:00 UTC
   seagrasstransect-dash              2026-09-27 03:34:37 UTC
@@ -108,17 +111,15 @@ Skipped (unchanged), last backup:
   tb-optical-model                   2026-09-27 06:14:58 UTC
   tb-rainfall-trends                 2026-09-27 06:12:52 UTC
   tbcmp-analyze                      2026-09-27 06:03:15 UTC
-  tbcmp-habitat                      2026-09-27 06:27:44 UTC
   tbcmp-opportunities                2026-09-27 06:11:25 UTC
   tbcmp-rainfall-trends              2026-09-27 06:19:10 UTC
-  tbcmp-vulnerability                2026-09-27 06:24:22 UTC
-  tbcmp-vulnerability-map            2026-09-27 06:25:25 UTC
   TBEP_Habitat_Restoration           2026-09-27 04:24:38 UTC
   tbep-invasives                     2026-09-27 06:06:50 UTC
   TBEP-NewAPDB                       2026-09-27 05:45:46 UTC
   tbep-os-presentations              2026-09-27 02:46:13 UTC
   tbep-os-workshop                   2026-09-27 04:17:05 UTC
   tbep-r-training                    2026-09-27 03:08:45 UTC
+  tbep-tech.github.io                2026-10-01 14:23:49 UTC
   tbep-tech.r-universe.dev           2026-09-27 03:43:44 UTC
   tbepdocker                         2026-09-27 03:47:10 UTC
   tbeploads                          2026-09-27 05:09:41 UTC
@@ -146,7 +147,6 @@ Skipped (unchanged), last backup:
   website                            2026-09-27 03:30:07 UTC
   wetlands-eval                      2026-09-27 04:43:19 UTC
   wetlands-eval-metadata             2026-09-27 05:02:29 UTC
-  wq-dash                            2026-09-27 02:47:33 UTC
   wq-static                          2026-09-27 02:53:43 UTC
   wqtrends                           2026-09-27 03:05:30 UTC
   wqtrends-manu                      2026-09-27 03:13:51 UTC
