@@ -1,19 +1,17 @@
-Successful archive on 2026-10-18 02:29:38 UTC (incremental)
-Run time: 16.5 mins
-Backed up: 12 of 165 repos
+Successful archive on 2026-10-25 02:36:18 UTC (incremental)
+Run time: 12.1 mins
+Backed up: 9 of 165 repos
 
 Backed up this run:
-  benthic-dash         2026-10-18 02:22:57 UTC
-  climate-dash         2026-10-18 02:29:38 UTC
-  github-backup        2026-10-18 02:21:54 UTC
-  nekton-dash          2026-10-18 02:20:52 UTC
-  tbep-refs            2026-10-18 02:17:36 UTC
-  tbep-tech.github.io  2026-10-18 02:14:13 UTC
-  tbeploads            2026-10-18 02:25:19 UTC
-  tidalcreek-dash      2026-10-18 02:18:40 UTC
-  wq-dash              2026-10-18 02:15:18 UTC
-  wqtrends             2026-10-18 02:19:49 UTC
-  (2 private repos not listed)
+  baywide-satisfaction-survey  2026-10-25 02:36:18 UTC
+  climate-dash                 2026-10-25 02:33:09 UTC
+  fib-dash                     2026-10-25 02:29:50 UTC
+  github-backup                2026-10-25 02:27:35 UTC
+  seagrasstraining-manu        2026-10-25 02:35:16 UTC
+  slrcsap                      2026-10-25 02:34:13 UTC
+  tbep-refs                    2026-10-25 02:26:33 UTC
+  tbep-tech.github.io          2026-10-25 02:25:19 UTC
+  tbeploads                    2026-10-25 02:28:47 UTC
 
 Skipped (unchanged), last backup:
   actionable-science                 2026-09-27 03:58:31 UTC
@@ -22,7 +20,7 @@ Skipped (unchanged), last backup:
   anep-congressional                 2026-09-27 03:07:42 UTC
   angler-preferences                 2026-09-27 06:23:20 UTC
   basis-intro-proceedings            2026-09-27 04:31:09 UTC
-  baywide-satisfaction-survey        2026-10-11 03:31:06 UTC
+  benthic-dash                       2026-10-18 02:22:58 UTC
   benthic-special-study              2026-09-27 06:21:14 UTC
   biogas-ghg                         2026-09-27 04:33:15 UTC
   BlueGAP-sandbox                    2026-09-27 04:18:10 UTC
@@ -50,7 +48,6 @@ Skipped (unchanged), last backup:
   equity-tool                        2026-09-27 04:58:43 UTC
   explore-ass-cap                    2026-09-27 05:57:42 UTC
   extractr                           2026-09-27 05:38:02 UTC
-  fib-dash                           2026-10-11 03:24:31 UTC
   fib-data-assessment                2026-09-27 05:11:55 UTC
   fib-report-card                    2026-09-27 05:20:37 UTC
   fibs-and-hydrology                 2026-09-27 05:16:17 UTC
@@ -64,6 +61,7 @@ Skipped (unchanged), last backup:
   hr_lulc_assessment                 2026-09-27 05:48:55 UTC
   landuse-change                     2026-09-27 03:38:53 UTC
   load-estimates                     2026-10-11 03:16:34 UTC
+  nekton-dash                        2026-10-18 02:20:53 UTC
   nwqmc-shiny                        2026-09-27 05:33:50 UTC
   obis-example                       2026-10-11 03:29:01 UTC
   OTB_assess                         2026-09-27 03:04:20 UTC
@@ -93,7 +91,6 @@ Skipped (unchanged), last backup:
   scallop-search                     2026-09-27 03:28:58 UTC
   seagrass-analysis                  2026-09-27 03:52:57 UTC
   seagrasscoverage-dash              2026-10-04 03:36:47 UTC
-  seagrasstraining-manu              2026-10-11 03:30:03 UTC
   seagrasstransect                   2026-09-27 03:19:00 UTC
   seagrasstransect-dash              2026-10-11 03:17:44 UTC
   seagrasstransect-training-dash     2026-09-27 03:55:16 UTC
@@ -101,7 +98,6 @@ Skipped (unchanged), last backup:
   shiny-exercises                    2026-09-27 04:30:06 UTC
   shiny-workshop                     2026-09-27 04:29:03 UTC
   skyway-pier                        2026-09-27 05:31:43 UTC
-  slrcsap                            2026-09-27 05:43:42 UTC
   slrcsap-dash                       2026-09-27 05:46:48 UTC
   sso-dash                           2026-09-27 03:06:38 UTC
   sso-reporting                      2026-09-27 05:28:24 UTC
@@ -143,6 +139,7 @@ Skipped (unchanged), last backup:
   TBRTD                              2026-09-27 05:22:49 UTC
   tbshed-locations                   2026-09-27 04:34:18 UTC
   temp-manu                          2026-09-27 04:54:09 UTC
+  tidalcreek-dash                    2026-10-18 02:18:41 UTC
   tidalcreek-stats                   2026-09-27 03:48:15 UTC
   trash-free-waters                  2026-09-27 04:06:01 UTC
   verified-wbids                     2026-09-27 04:07:04 UTC
@@ -150,9 +147,11 @@ Skipped (unchanged), last backup:
   website                            2026-09-27 03:30:07 UTC
   wetlands-eval                      2026-09-27 04:43:19 UTC
   wetlands-eval-metadata             2026-09-27 05:02:29 UTC
+  wq-dash                            2026-10-18 02:15:19 UTC
   wq-static                          2026-10-11 03:12:03 UTC
+  wqtrends                           2026-10-18 02:19:46 UTC
   wqtrends-manu                      2026-09-27 03:13:51 UTC
   wqtrends-pres                      2026-09-27 04:27:56 UTC
   wqtrends-synthesis                 2026-09-27 03:40:05 UTC
   ww-table                           2026-09-27 05:47:51 UTC
-  (14 private repos not listed)
+  (16 private repos not listed)
