@@ -1,25 +1,28 @@
-Successful archive on 2026-10-25 02:36:18 UTC (incremental)
-Run time: 12.1 mins
-Backed up: 9 of 165 repos
+Successful archive on 2026-11-01 03:46:30 UTC (incremental)
+Run time: 23.8 mins
+Backed up: 12 of 165 repos
 
 Backed up this run:
-  baywide-satisfaction-survey  2026-10-25 02:36:18 UTC
-  climate-dash                 2026-10-25 02:33:09 UTC
-  fib-dash                     2026-10-25 02:29:50 UTC
-  github-backup                2026-10-25 02:27:35 UTC
-  seagrasstraining-manu        2026-10-25 02:35:16 UTC
-  slrcsap                      2026-10-25 02:34:13 UTC
-  tbep-refs                    2026-10-25 02:26:33 UTC
-  tbep-tech.github.io          2026-10-25 02:25:19 UTC
-  tbeploads                    2026-10-25 02:28:47 UTC
+  angler-preferences     2026-11-01 03:45:27 UTC
+  climate-dash           2026-11-01 03:44:23 UTC
+  fib-dash               2026-11-01 03:39:37 UTC
+  github-backup          2026-11-01 03:28:15 UTC
+  habitat-report-card    2026-11-01 03:30:28 UTC
+  otb-temp               2026-11-01 03:29:22 UTC
+  seagrasstraining-manu  2026-11-01 03:46:30 UTC
+  tbep-refs              2026-11-01 03:26:11 UTC
+  tbep-tech.github.io    2026-11-01 03:23:48 UTC
+  tbepdocker             2026-11-01 03:27:13 UTC
+  wq-dash                2026-11-01 03:24:54 UTC
+  (1 private repos not listed)
 
 Skipped (unchanged), last backup:
   actionable-science                 2026-09-27 03:58:31 UTC
   alafia-analysis                    2026-09-27 03:59:34 UTC
   ambi                               2026-09-27 06:18:07 UTC
   anep-congressional                 2026-09-27 03:07:42 UTC
-  angler-preferences                 2026-09-27 06:23:20 UTC
   basis-intro-proceedings            2026-09-27 04:31:09 UTC
+  baywide-satisfaction-survey        2026-10-25 02:36:19 UTC
   benthic-dash                       2026-10-18 02:22:58 UTC
   benthic-special-study              2026-09-27 06:21:14 UTC
   biogas-ghg                         2026-09-27 04:33:15 UTC
@@ -55,7 +58,6 @@ Skipped (unchanged), last backup:
   fim-seagrass                       2026-09-27 04:32:13 UTC
   flafs-os-workshop                  2026-09-27 04:21:22 UTC
   gomcon-24                          2026-09-27 05:14:10 UTC
-  habitat-report-card                2026-09-27 04:19:15 UTC
   hmpu-manu                          2026-09-27 04:12:33 UTC
   hmpu-workflow                      2026-09-27 02:58:04 UTC
   hr_lulc_assessment                 2026-09-27 05:48:55 UTC
@@ -66,7 +68,6 @@ Skipped (unchanged), last backup:
   obis-example                       2026-10-11 03:29:01 UTC
   OTB_assess                         2026-09-27 03:04:20 UTC
   otb-chla                           2026-09-27 05:50:00 UTC
-  otb-temp                           2026-09-27 04:11:16 UTC
   otbasscap-data                     2026-09-27 05:19:29 UTC
   pep-graphics                       2026-09-27 03:41:17 UTC
   pep-r-training                     2026-09-27 03:37:50 UTC
@@ -98,6 +99,7 @@ Skipped (unchanged), last backup:
   shiny-exercises                    2026-09-27 04:30:06 UTC
   shiny-workshop                     2026-09-27 04:29:03 UTC
   skyway-pier                        2026-09-27 05:31:43 UTC
+  slrcsap                            2026-10-25 02:34:14 UTC
   slrcsap-dash                       2026-09-27 05:46:48 UTC
   sso-dash                           2026-09-27 03:06:38 UTC
   sso-reporting                      2026-09-27 05:28:24 UTC
@@ -121,7 +123,7 @@ Skipped (unchanged), last backup:
   tbep-os-workshop                   2026-09-27 04:17:05 UTC
   tbep-r-training                    2026-09-27 03:08:45 UTC
   tbep-tech.r-universe.dev           2026-09-27 03:43:44 UTC
-  tbepdocker                         2026-09-27 03:47:10 UTC
+  tbeploads                          2026-10-25 02:28:42 UTC
   tbepreport                         2026-09-27 06:22:17 UTC
   tbepRSparrow                       2026-09-27 03:20:07 UTC
   tbepRSparrow-control               2026-09-27 03:21:28 UTC
@@ -147,11 +149,10 @@ Skipped (unchanged), last backup:
   website                            2026-09-27 03:30:07 UTC
   wetlands-eval                      2026-09-27 04:43:19 UTC
   wetlands-eval-metadata             2026-09-27 05:02:29 UTC
-  wq-dash                            2026-10-18 02:15:19 UTC
   wq-static                          2026-10-11 03:12:03 UTC
   wqtrends                           2026-10-18 02:19:46 UTC
   wqtrends-manu                      2026-09-27 03:13:51 UTC
   wqtrends-pres                      2026-09-27 04:27:56 UTC
   wqtrends-synthesis                 2026-09-27 03:40:05 UTC
   ww-table                           2026-09-27 05:47:51 UTC
-  (16 private repos not listed)
+  (15 private repos not listed)
